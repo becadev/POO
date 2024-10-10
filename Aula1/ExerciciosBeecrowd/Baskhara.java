@@ -1,4 +1,4 @@
-package Aula1;
+package Aula1.ExerciciosBeecrowd; //Declaração do pacote correspondente ao caminho da pasta
 import java.util.Scanner;
 
 public class Baskhara{

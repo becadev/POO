@@ -1,4 +1,4 @@
-package Aula1; //Declaração do pacote correspondente ao caminho da pasta
+package Aula1.ExerciciosBeecrowd; //Declaração do pacote correspondente ao caminho da pasta
 
 import java.util.Scanner; //pacote padrao de scanner de java
 public class Adicao//Nome da class
