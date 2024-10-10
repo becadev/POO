@@ -1,5 +1,7 @@
+package Aula1; //Declaração do pacote correspondente ao caminho da pasta
+
 import java.util.Scanner; //pacote padrao de scanner de java
-public class HelloWorld //Nome da class
+public class Adicao//Nome da class
 {
     public static int soma(int a, int b){ // tem que ter o static pois o main só poderá chamar funções que também são statics
         int c = a + b;
@@ -10,7 +12,6 @@ public class HelloWorld //Nome da class
     }
     public static void main(String[] args) // void tipo de retorno(paramentros)
     {//static serve para agrupar as funções, ele não sofrerá alteração quando um objeto for criado, ele está ligado a classe por isso é declarada como static
-        System.out.println("Hello, World");
         Scanner sc  = new Scanner(System.in); // ele vai ler as variaveis que estão na mesma linha ou um em baixo do outro
         System.out.print("Digite  o valor do primeiro número: ");
         int x = sc.nextInt();
@@ -30,5 +31,5 @@ public class HelloWorld //Nome da class
 //Nome do arquivo tem que ser o mesmo nome da classe
 
 //Para compilar no terminal:
-//javac HelloWorld.java (cria o arquivo class)
-// java HelloWorld (Roda o programa)
+//javac Aula1/Adicao.java (cria o arquivo class)
+// java Aula1.Adicao (Roda o programa)
