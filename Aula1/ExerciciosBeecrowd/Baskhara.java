@@ -14,7 +14,7 @@ public class Baskhara{
         }else{
             double r1 = (-b + Math.pow(delta , 0.5))/(2.0*a); //Math.pow = metodo para fazer a potência de um número. Raiz quadrada é igual um número elevado a meio.
             double r2 = (-b - Math.pow(delta , 0.5))/(2.0*a);
-            System.out.printf("R1 = %.5f\n" + "R2 = %.5f\n ", r1,r2);
+            System.out.printf("R1 = %.5f\n" + "R2 = %.5f ", r1,r2);
         }
     }
 }
